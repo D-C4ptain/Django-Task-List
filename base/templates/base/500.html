@@ -1,0 +1,17 @@
+{% extends "base/main.html"%}
+{% block content %}
+    <div class="header-bar">
+        <a href="{% url 'tasks' %}">&#8592; Home</a>
+    </div>
+    <div class="card-body-task">
+
+    <div id="task-detail">
+    <h2> Internal Error</h2>
+    <p>Our server returned an unexpected error.</p>
+    <p>We probably could not understand your request.</p>
+    <p>Please contact the administrator
+        <a href="https://d-captainkenya.github.io/" target="_blank">D_CAPTAINKENYA</a></p>
+        <button onclick="History.back()">Back</button>
+    </div>
+    </div>
+{% endblock %}
